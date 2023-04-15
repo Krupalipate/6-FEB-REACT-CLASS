@@ -1,0 +1,11 @@
+.externalCssClass {
+  color: red;
+  background: yellow;
+}
+.ominipic {
+width: 100%;
+height: 50vw;
+background-image: url(https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg);
+background-position: center;
+background-repeat: no-repeat;
+}
