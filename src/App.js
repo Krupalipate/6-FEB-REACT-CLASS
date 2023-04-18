@@ -18,11 +18,17 @@ import React, { useState } from "react"
         // PROPS
 // import Main from "./Component/PROPS/Main"
 // import ImageList from "./ImageWithProps/ImageList"
-import ImageList from "./Component/ImageWithProps/ImageList"
+// import ImageList from "./Component/ImageWithProps/ImageList"
+    //    useEffect
+// import Main from "./Component/useEffect/Main"
+    //    useEffect 2
+// import Main from "./Component/useEffect2/Main"
 
+        // Calling_An_API
+import Main from "./Component/Calling_An_API/Main"
 
 function App() {
-        
+         
     return (
         <>
              {/* <Header />
@@ -37,9 +43,18 @@ function App() {
             {/* <BooleanState /> */}
             {/* <ArrayState/> */}
            
-                   {/* PROPS-FOLDER */}
+                  {/* PROPS-FOLDER */}
             {/* <Main /> */}
-            <ImageList />
+            {/* <ImageList /> */}
+
+                  {/* useEffect */}
+            {/* <Main /> */}
+            
+            {/* useEffect2 */}
+        {/* <Main /> */}
+            
+            {/* Calling_An_API */}
+         <Main/>   
 
         </>
        
