@@ -18,9 +18,11 @@ import React, { useState } from "react"
         // PROPS
 // import Main from "./Component/PROPS/Main"
 // import ImageList from "./ImageWithProps/ImageList"
-import ImageList from "./Component/ImageWithProps/ImageList"
+// import ImageList from "./Component/ImageWithProps/ImageList"
 
-
+            // Form_Hendaling
+            
+import Main from "./Component/Form_Handling/Main"
 function App() {
         
     return (
@@ -39,7 +41,11 @@ function App() {
            
                    {/* PROPS-FOLDER */}
             {/* <Main /> */}
-            <ImageList />
+            {/* <ImageList /> */}
+
+            
+            {/* Form_Handling */}
+        <Main />
 
         </>
        
